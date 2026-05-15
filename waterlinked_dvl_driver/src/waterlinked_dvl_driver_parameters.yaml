@@ -1,7 +1,7 @@
 waterlinked_dvl_driver:
   ip_address:
     type: string
-    default_value: "192.168.194.95"
+    default_value: "192.168.2.40"
     description: "The IP address of the DVL."
     read_only: true
 
@@ -33,7 +33,7 @@ waterlinked_dvl_driver:
 
   mounting_rotation_offset:
     type: int
-    default_value: 180
+    default_value: 0
     description: "The mounting rotation offset of the DVL (degrees)."
     read_only: true
     validation:
